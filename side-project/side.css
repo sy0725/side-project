@@ -111,7 +111,6 @@ padding: 10px;
   width: 223px;
   height: 33px;
   background: url(./img/스프라이트\ 이미지.png);
-
 }
 
 .menu__input {
@@ -235,12 +234,6 @@ left: 0;
 }
 
 
-
-
-
-
-
-
 .navi2 {
   display: flex;
 
@@ -257,23 +250,84 @@ left: 0;
   align-items: center;
 }
 
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 
+.menu__main {
+  background: linear-gradient(180deg, rgba(246, 249, 253, 0.99) 0%, rgba(248, 250, 253, 0.11) 54.17%, rgba(255, 255, 255, 0.01) 100%);
+  margin: 0 auto;
+  max-width: 1280px;
+
+}
+
+.menu__main__one {
+  display: flex;
+}
 
 
+.menu__main__listOne {
+  display: flex;
+  padding-top: 15px;
+  gap: 15px;
+}
 
 
+.menu__main__box1 {
+  display: flex;
+}
 
+.menu__main__box2 {
+  width: 160px;
+}
 
+.sprite {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 
+}
 
+.menu__main__listOne li a {
+  display: flex;
+  font-size: 14px;
+}
 
+p {
+  font-size: 13px;
+  color: #999999
+}
 
+.menu__main__listImg1__img {
+  background: url(./img/img1.png) no-repeat 0 0 / cover;
+}
 
+.menu__main__listImg2__img {
+  background: url(./img/img2.png) no-repeat 0 0 / cover;
+}
 
+.menu__main__listImg3__img {
+  background: url(./img/img3.png) no-repeat 0 0 / cover;
+}
 
+.menu__main__listImg4__img {
+  background: url(./img/img4.png) no-repeat 0 0 / cover;
+}
 
-
+.menu__main__listImg5__img {
+  background: url(./img/img5.png) no-repeat 0 0 / cover;
+}
 
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.menu__list__two {
+  background-image: url(./img/스프라이트\ 이미지.png);
+  width: 800px;
+  height: 365px;
+  background-position: -1650px -833px;
+}
+
+
+.menu__bottom {
+  padding-top: 20px;
+}
