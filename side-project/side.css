@@ -165,6 +165,7 @@ padding: 10px;
   display: flex;
   font-size: 18px;
   gap: 25px;
+
 }
 
 
@@ -250,6 +251,33 @@ left: 0;
   align-items: center;
 }
 
+
+.menu__navi__listItem {
+  position: relative;
+}
+
+.menu__navi__listItem::after {
+  content: "";
+  position: absolute;
+  display:block;
+  width: 0;
+  height: 2px;
+  background: #1090FD;
+  transition: width 0.3s;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.menu__navi__listItem:hover::after {
+  width: 100%;
+}
+
+
+
+
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 
@@ -325,9 +353,113 @@ p {
   width: 800px;
   height: 365px;
   background-position: -1650px -833px;
+  margin-right: 80px;
 }
 
 
 .menu__bottom {
   padding-top: 20px;
+  display: flex;
+}
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.menu__list__three {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu__list__three__nav {
+  border: 0;
+  background: white;
+  box-shadow: 0px 4px 20px rgba(105, 125, 155, 0.25);
+  width: 120px;
+  height: 39px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.button.active {
+  color: #1090fd;
+  border: 2px solid #1090fd;
+  box-shadow: none;
+}
+
+
+
+.today {
+  background: yellow;
+  width: 125px;
+  height: 80px;
+}
+
+.today__box {
+  width: 235px;
+  margin-bottom: 15px;
+  
+}
+
+.today__text {
+  font-size: 14px;
+  color: black;
+
+
+}
+
+.author {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.menu__list__three__img__text {
+  display: flex;
+  gap: 20px;
+}
+
+
+.menu__list__three__img__text1__img {
+  background: url(./img/img6.png) no-repeat 0 0 / cover;
+
+
+}
+
+.menu__list__three__img__text2__img {
+  background: url(./img/img7.png) no-repeat 0 0 / cover;
+
+
+}
+
+.menu__list__three__img__text3__img {
+  background: url(./img/img8.png) no-repeat 0 0 / cover;
+}
+
+.today__text,.author {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu__list__three__img li {
+  border-bottom: 1px solid black ;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }

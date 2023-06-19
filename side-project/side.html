@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="side.css" />
-    <script src="https://kit.fontawesome.com/5528341cef.js" crossorigin="anonymous" defer></script>
+    <script
+      src="https://kit.fontawesome.com/5528341cef.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="./index.js" defer></script>
     <title>side.project</title>
   </head>
   <body>
-
     <header class="menu">
       <div class="menu__logIn">
         <div class="menu__input">
@@ -41,42 +48,45 @@
         </ul>
       </div>
 
-
-
-
       <nav class="menu__navi">
         <h2 class="a11yHidden">메뉴 목록</h2>
 
         <section class="navi1">
           <h3 class="a11yHidden">바로가기 모음</h3>
-        <button class="burger">
-          <span class="button--burgerBarTop"></span>
-          <span class="button--burgerBarMiddle"></span>
-          <span class="button--burgerBarBottom"></span>
-        </button>
-        <ul class="menu__navi__list">
-          <li class="menu__navi__listItem"><a href="/">베스트셀러</a></li>
-          <li class="menu__navi__listItem"><a href="/">새로나온책</a></li>
-          <li class="menu__navi__listItem"><a href="/">편집자추천</a></li>
-          <li class="menu__navi__listItem"><a href="/">이벤트</a></li>
-          <li class="menu__navi__listItem"><a href="/">테마추천</a></li>
-          <li class="menu__navi__listItem"><a href="/">바로보네서점</a></li>
-        </ul>
-      </section>
+          <button class="burger">
+            <span class="button--burgerBarTop"></span>
+            <span class="button--burgerBarMiddle"></span>
+            <span class="button--burgerBarBottom"></span>
+          </button>
+          <ul class="menu__navi__list">
+            <li class="menu__navi__listItem"><a href="/">베스트셀러</a></li>
+            <li class="menu__navi__listItem"><a href="/">새로나온책</a></li>
+            <li class="menu__navi__listItem"><a href="/">편집자추천</a></li>
+            <li class="menu__navi__listItem"><a href="/">이벤트</a></li>
+            <li class="menu__navi__listItem"><a href="/">테마추천</a></li>
+            <li class="menu__navi__listItem"><a href="/">바로보네서점</a></li>
+          </ul>
+        </section>
 
-      <section class="navi2">
-        <h3 class="a11yHidden">바로가기 아이콘</h3>
-        <ul class="menu__navi__icon">
-          <li class="menu__navi__iconItem1"><a href="/"><i class="fa-regular fa-heart"></i></a></li>
-          <li class="menu__navi__iconItem2"><a href="/"><i class="fa-regular fa-user"></i></a></li>
-          <li class="menu__navi__iconItem3"><a href="/"><i class="fa-solid fa-truck"></i></a></li>
-          <li class="menu__navi__iconItem4"><a href="/"><i class="fa-solid fa-bag-shopping"></i></a></li>
-        </ul>
-      </section>
+        <section class="navi2">
+          <h3 class="a11yHidden">바로가기 아이콘</h3>
+          <ul class="menu__navi__icon">
+            <li class="menu__navi__iconItem1">
+              <a href="/"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="menu__navi__iconItem2">
+              <a href="/"><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="menu__navi__iconItem3">
+              <a href="/"><i class="fa-solid fa-truck"></i></a>
+            </li>
+            <li class="menu__navi__iconItem4">
+              <a href="/"><i class="fa-solid fa-bag-shopping"></i></a>
+            </li>
+          </ul>
+        </section>
       </nav>
     </header>
-
-
 
     <main class="menu__main">
       <div class="menu__main__one">
@@ -86,9 +96,9 @@
               ><div class="menu__main__box1">
                 <div class="menu__main__listImg1__img sprite"></div>
                 <div class="menu__main__box2">
-                [초등어휘사전+가드 중점] 이상한 과자 가게
-                <p>히로시마 레이코 / 길벗</p>
-              </div>
+                  [초등어휘사전+가드 중점] 이상한 과자 가게
+                  <p>히로시마 레이코 / 길벗</p>
+                </div>
               </div></a
             >
           </li>
@@ -140,63 +150,78 @@
       </div>
 
       <div class="menu__bottom">
-      <div class="menu__list__two"></div>
+        <div class="menu__list__two"></div>
 
-      <div class="menu__list__three">
-        <ul class="menu__list__three__nav">
-          <li>
-            <button class="menu__list__three__nav button" type="button">
-              오늘의책
-            </button>
-          </li>
-          <li>
-            <button class="menu__list__three__nav button" type="button">
-              특가상품
-            </button>
-          </li>
-          <li>
-            <button class="menu__list__three__nav button" type="button">
-              편집차추천
-            </button>
-          </li>
-        </ul>
+        <div class="menu__list__three">
+          <ul class="menu__list__three__nav">
+            <li>
+              <button
+                class="menu__list__three__nav button active"
+                type="button"
+              >
+                오늘의책
+              </button>
+            </li>
+            <li>
+              <button class="menu__list__three__nav button" type="button">
+                특가상품
+              </button>
+            </li>
+            <li>
+              <button class="menu__list__three__nav button" type="button">
+                편집차추천
+              </button>
+            </li>
+          </ul>
 
-        <ul class="menu__list__three__img">
-          <li>
-            <a href=""
-              ><div class="menu__list__three__img__text1">
-                <div class="menu__list__three__img__text1__img"></div>
-                벌거벗은 세계사 : 잔혹사편, 벗겼다, 세상이 감춰온 비극의 순간들
-                <p class="author">
-                  tvn &lt;벌거벗은세계사&gt; 제작팀 / 교보문고
-                </p>
-                <span class="price">20,700원</span>
-              </div></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><div class="menu__list__three__img__text2">
-                <div class="menu__list__three__img__text2__img"></div>
-                나 자신으로 살아가기
-                <p class="author">임경선 / 마음산책</p>
-                <span class="price">13,500원</span>
-              </div></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><div class="menu__list__three__img__text3">
-                <div class="menu__list__three__img__text3__img"></div>
-                맡겨진 소녀
-                <p class="author">클레어 키건 / 다산책방</p>
-                <span class="price">11,700원</span>
-              </div></a
-            >
-          </li>
-        </ul>
+          <ul class="menu__list__three__img">
+            <li>
+              <a href=""
+                ><div class="menu__list__three__img__text">
+                  <div class="menu__list__three__img__text1__img today"></div>
+
+                  <div class="today__box">
+                    <p class="today__text">
+                      벌거벗은 세계사 : 잔혹사편, 벗겼다, 세상이 감춰온 비극의
+                      순간들
+                    </p>
+                    <p class="author">
+                      tvn &lt;벌거벗은세계사&gt; 제작팀 / 교보문고
+                    </p>
+                    <span class="price">20,700원</span>
+                  </div>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><div class="menu__list__three__img__text">
+                  <div class="menu__list__three__img__text2__img today"></div>
+
+                  <div class="today__box">
+                    <p class="today__text">나 자신으로 살아가기</p>
+                    <p class="author">임경선 / 마음산책</p>
+                    <span class="price">13,500원</span>
+                  </div>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><div class="menu__list__three__img__text">
+                  <div class="menu__list__three__img__text3__img today"></div>
+
+                  <div class="today__box">
+                    <p class="today__text">맡겨진 소녀</p>
+                    <p class="author">클레어 키건 / 다산책방</p>
+                    <span class="price">11,700원</span>
+                  </div>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </main>
   </body>
 </html>
